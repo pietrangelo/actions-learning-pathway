@@ -9,7 +9,7 @@ jobs:
       - run: echo "$(cat hello_world.txt)"
 
       - name: use node.js
-        uses: actions/setup-nodejs@v3
+        uses: actions/setup-node@v3
         with:
           node-version: '18.x'
       - run: npm install
